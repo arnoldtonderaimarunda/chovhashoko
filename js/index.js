@@ -76,11 +76,11 @@ path.render()
 
 // Circle Objects
 let circles = [
-    { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'Keyzmo'}, page: 'https://keyzmo.co' },
-    { iconCode: '&#xf0eb;', path: path, description: {title: 'Emergency backup light', text: 'Surge'}, page: 'https://surge.co' },
-    { iconCode: '&#xf304;', path: path, description: {title: 'Writing without limits', text: 'ForeverPen'}, page: 'https://foreverpen.co' },
-    { iconCode: '&#xf134;', path: path, description: {title: 'Fire safety device', text: 'StaySafe'}, page: 'https://staysafe.co' },
-    { iconCode: '&#xf2e7;', path: path, description: {title: 'Ultimate grilling tool', text: 'FlipFork'}, page: 'https://flipfork.co' }
+    { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'Keyzmo'}, giddyup: 'https://deals.getkeyzmo.io/21MNWSMB/246GMWW/?uid=1428' },
+    { iconCode: '&#xf0eb;', path: path, description: {title: 'Emergency backup light', text: 'Surge'}, giddyup: 'https://deals.getsurgeemergencybulb.io/21MNWSMB/29Q1LBW/?uid=1775' },
+    { iconCode: '&#xf304;', path: path, description: {title: 'Writing without limits', text: 'ForeverPen'}, giddyup: 'https://deals.getforeverpen.io/21MNWSMB/25QWXGB/?uid=1725' },
+    { iconCode: '&#xf134;', path: path, description: {title: 'Fire safety device', text: 'StaySafe'}, giddyup: 'https://staysafe.co' },
+    { iconCode: '&#xf2e7;', path: path, description: {title: 'Ultimate grilling tool', text: 'FlipFork'}, giddyup: 'https://flipfork.co' }
 ];
 let circlesGroup = document.createElementNS(SVG_DOC, 'g');
 circlesGroup.setAttribute('class', CIRCLE_OBJECTS_GROUP_CLASS);
@@ -91,7 +91,7 @@ circles.map((circle, index) => {
         ...circle,
         positionIndex: index,
         fadeSpeed: timeControl.circlesFadeSpeed,
-        clickHandler: () => window.location.href = circle.page
+        clickHandler: () => window.location.href = circle.giddyup
     });
     circleObject.render();
     circleObjects.push(circleObject);
