@@ -76,11 +76,11 @@ path.render()
 
 // Circle Objects
 let circles = [
-    { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'Keyzmo'} },
-    { iconCode: '&#xf0eb;', path: path, description: {title: 'Emergency backup light', text: 'Surge'} },
-    { iconCode: '&#xf304;', path: path, description: {title: 'Writing without limits', text: 'ForeverPen'} },
-    { iconCode: '&#xf134;', path: path, description: {title: 'Fire safety device', text: 'StaySafe'} },
-    { iconCode: '&#xf2e7;', path: path, description: {title: 'Ultimate grilling tool', text: 'FlipFork'} }
+    { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'Keyzmo'}, page: 'https://keyzmo.co' },
+    { iconCode: '&#xf0eb;', path: path, description: {title: 'Emergency backup light', text: 'Surge'}, page: 'https://surge.co' },
+    { iconCode: '&#xf304;', path: path, description: {title: 'Writing without limits', text: 'ForeverPen'}, page: 'https://foreverpen.co' },
+    { iconCode: '&#xf134;', path: path, description: {title: 'Fire safety device', text: 'StaySafe'}, page: 'https://staysafe.co' },
+    { iconCode: '&#xf2e7;', path: path, description: {title: 'Ultimate grilling tool', text: 'FlipFork'}, page: 'https://flipfork.co' }
 ];
 let circlesGroup = document.createElementNS(SVG_DOC, 'g');
 circlesGroup.setAttribute('class', CIRCLE_OBJECTS_GROUP_CLASS);
@@ -91,7 +91,7 @@ circles.map((circle, index) => {
         ...circle,
         positionIndex: index,
         fadeSpeed: timeControl.circlesFadeSpeed,
-        clickHandler: (circle) => console.log(`Clicking ${circle}`)
+        clickHandler: () => console.log(circle.page)
     });
     circleObject.render();
     circleObjects.push(circleObject);
