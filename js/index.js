@@ -54,6 +54,8 @@ const images = [
     {src: 'images/carousel/foreverpen.png', alt: 'ForeverPen'},
     {src: 'images/carousel/surge.png', alt: 'Surge'},
     {src: 'images/carousel/keyzmo.png', alt: 'Keyzmo'},
+    {src: 'images/carousel/foreverpen.png', alt: 'ForeverPen'},
+    {src: 'images/carousel/keyzmo.png', alt: 'Keyzmo'}
 ];
 let carouselDiv = document.getElementById('carousel-div');
 let carousel = new Carousel(carouselDiv, images, {
@@ -63,8 +65,9 @@ let carousel = new Carousel(carouselDiv, images, {
 setTimeout(() => carousel.play(), timeControl.introDelay);
 
 // Path Object
-let pathPointsPercents = [ [-2.5, 40], [22.5, 80], [50, 70], [70, 85], [100, 30] ];
-let pathPointsPercentsTight = [ [-2.5, 50], [32.5, 80], [65, 80], [100, 50] ];
+ let pathPointsPercents = [ [-2.5, 40], [22.5, 80], [50, 70], [70, 85], [100, 30] ];
+ let pathPointsPercentsTight = [ [-2.5, 50], [32.5, 80], [65, 80], [100, 50] ];
+
 let path = new Path(ROOT_SVG_ID, pathPointsPercents, {
     control: CURVE_CONTROL(),
     color: '#c9b2a3'
@@ -76,6 +79,8 @@ let circles = [
     { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'Keyzmo'} },
     { iconCode: '&#xf0eb;', path: path, description: {title: 'Emergency backup light', text: 'Surge'} },
     { iconCode: '&#xf304;', path: path, description: {title: 'Writing without limits', text: 'ForeverPen'} },
+    { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'Keyzmo'} },
+    { iconCode: '&#xf304;', path: path, description: {title: 'Writing without limits', text: 'ForeverPen'} }
 ];
 let circlesGroup = document.createElementNS(SVG_DOC, 'g');
 circlesGroup.setAttribute('class', CIRCLE_OBJECTS_GROUP_CLASS);
