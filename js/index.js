@@ -27,17 +27,17 @@ let animationFunctions = [];
 // Animated Text
 let textList = [
     {
-        text:   ['dev',        'tarek\'s'],
+        text:   ['Life\'s', 'a journey?'],
         in:     [an.SLIDE_DOWN, an.SLIDE_UP],
         out:    [an.SLIDE_DOWN, an.SLIDE_UP],
     },
     {
-        text:   ['coolest',      'library',      'ever'],
+        text:   ['reach',      'your',      'destination'],
         in:     [an.SLIDE_RIGHT, an.SLIDE_DOWN,  an.SLIDE_LEFT],
         out:    [an.SLIDE_RIGHT, an.FADE_OUT,    an.SLIDE_LEFT],
     },
     {
-        text:   ['coming',         'soon'],
+        text:   ['buy',         'innovation!'],
         in:     [an.FADE_IN,       an.FADE_IN],
         out:    [an.SLIDE_RIGHT,   an.SLIDE_LEFT],
     }, 
@@ -75,11 +75,11 @@ path.render()
 
 // Circle Objects
 let circles = [
-    { iconCode: '&#xf1b4;', path: path, description: {title: 'Behance', text: 'Design Portfolio'} },
-    { iconCode: '&#xf09b;', path: path, description: {title: 'Github', text: 'Latest Projects'} },
-    { iconCode: '&#xf08c;', path: path, description: {title: 'LinkedIn', text: ' My Experience'} },
-    { iconCode: '&#xf167;', path: path, description: {title: 'YouTube', text: 'Quality Content'} },
-    { iconCode: '&#xf09a;', path: path, description: {title: 'Facebook', text: 'Social Media'} },
+    { iconCode: '&#xf1b4;', path: path, description: {title: 'Keyzmo', text: 'Crafted for the curious'} },
+    { iconCode: '&#xf09b;', path: path, description: {title: 'Surge', text: 'Emergency backup light'} },
+    { iconCode: '&#xf08c;', path: path, description: {title: 'ForeverPen', text: 'Writing without limits'} },
+    { iconCode: '&#xf167;', path: path, description: {title: 'Surfshark', text: 'VPN deal that ROCKS'} },
+    { iconCode: '&#xf09a;', path: path, description: {title: 'Incogni', text: 'Delete your personal data'} },
 ];
 let circlesGroup = document.createElementNS(SVG_DOC, 'g');
 circlesGroup.setAttribute('class', CIRCLE_OBJECTS_GROUP_CLASS);
