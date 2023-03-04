@@ -91,7 +91,7 @@ circles.map((circle, index) => {
         ...circle,
         positionIndex: index,
         fadeSpeed: timeControl.circlesFadeSpeed,
-        clickHandler: () => console.log(circle.page)
+        clickHandler: () => window.location.href = circle.page
     });
     circleObject.render();
     circleObjects.push(circleObject);
