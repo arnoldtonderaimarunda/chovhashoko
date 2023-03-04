@@ -54,8 +54,8 @@ const images = [
     {src: 'images/carousel/foreverpen.png', alt: 'ForeverPen'},
     {src: 'images/carousel/surge.png', alt: 'Surge'},
     {src: 'images/carousel/keyzmo.png', alt: 'Keyzmo'},
-    {src: 'images/carousel/foreverpen.png', alt: 'ForeverPen'},
-    {src: 'images/carousel/keyzmo.png', alt: 'Keyzmo'}
+    {src: 'images/carousel/flipfork.png', alt: 'FlipFork'},
+    {src: 'images/carousel/staysafe.png', alt: 'StaySafe'}
 ];
 let carouselDiv = document.getElementById('carousel-div');
 let carousel = new Carousel(carouselDiv, images, {
@@ -79,8 +79,8 @@ let circles = [
     { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'Keyzmo'} },
     { iconCode: '&#xf0eb;', path: path, description: {title: 'Emergency backup light', text: 'Surge'} },
     { iconCode: '&#xf304;', path: path, description: {title: 'Writing without limits', text: 'ForeverPen'} },
-    { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'Keyzmo'} },
-    { iconCode: '&#xf304;', path: path, description: {title: 'Writing without limits', text: 'ForeverPen'} }
+    { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'StaySafe'} },
+    { iconCode: '&#xf304;', path: path, description: {title: 'Ultimate grilling tool', text: 'FlipFork'} }
 ];
 let circlesGroup = document.createElementNS(SVG_DOC, 'g');
 circlesGroup.setAttribute('class', CIRCLE_OBJECTS_GROUP_CLASS);
