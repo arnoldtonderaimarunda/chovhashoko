@@ -79,8 +79,8 @@ let circles = [
     { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'Keyzmo'} },
     { iconCode: '&#xf0eb;', path: path, description: {title: 'Emergency backup light', text: 'Surge'} },
     { iconCode: '&#xf304;', path: path, description: {title: 'Writing without limits', text: 'ForeverPen'} },
-    { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'StaySafe'} },
-    { iconCode: '&#xf304;', path: path, description: {title: 'Ultimate grilling tool', text: 'FlipFork'} }
+    { iconCode: '&#xf2e3;', path: path, description: {title: 'Fire safety device', text: 'StaySafe'} },
+    { iconCode: '&#xf2e6;', path: path, description: {title: 'Ultimate grilling tool', text: 'FlipFork'} }
 ];
 let circlesGroup = document.createElementNS(SVG_DOC, 'g');
 circlesGroup.setAttribute('class', CIRCLE_OBJECTS_GROUP_CLASS);
