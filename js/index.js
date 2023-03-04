@@ -91,7 +91,7 @@ circles.map((circle, index) => {
         ...circle,
         positionIndex: index,
         fadeSpeed: timeControl.circlesFadeSpeed,
-        clickHandler: () => console.log('Click ' + circle)
+        clickHandler: () => console.log('Click ' + circle[1])
     });
     circleObject.render();
     circleObjects.push(circleObject);
