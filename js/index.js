@@ -51,9 +51,9 @@ setTimeout(() => animationFunctions.push(animatedText.play()), timeControl.intro
 
 // Carousel
 const images = [
-    {src: 'images/carousel/jeep.png', alt: 'Jeep'},
-    {src: 'images/carousel/ford.png', alt: 'Ford'},
-    {src: 'images/carousel/f150.png', alt: 'Ford F150'},
+    {src: 'images/carousel/foreverpen.png', alt: 'ForeverPen'},
+    {src: 'images/carousel/surge.png', alt: 'Surge'},
+    {src: 'images/carousel/keyzmo.png', alt: 'Keyzmo'},
     {src: 'images/carousel/pathfinder.png', alt: 'Toyota'},
     {src: 'images/carousel/toyota.png', alt: 'Toyota'},
 ];
@@ -75,11 +75,11 @@ path.render()
 
 // Circle Objects
 let circles = [
-    { iconCode: '&#xf1b4;', path: path, description: {title: 'Keyzmo', text: 'Crafted for the curious'} },
-    { iconCode: '&#xf09b;', path: path, description: {title: 'Surge', text: 'Emergency backup light'} },
-    { iconCode: '&#xf08c;', path: path, description: {title: 'ForeverPen', text: 'Writing without limits'} },
-    { iconCode: '&#xf167;', path: path, description: {title: 'Surfshark', text: 'VPN deal that ROCKS'} },
-    { iconCode: '&#xf09a;', path: path, description: {title: 'Incogni', text: 'Delete your personal data'} },
+    { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'Keyzmo'} },
+    { iconCode: '&#xf0eb;', path: path, description: {title: 'Emergency backup light', text: 'Surge'} },
+    { iconCode: '&#xf304;', path: path, description: {title: 'Writing without limits', text: 'ForeverPen'} },
+    { iconCode: '&#xf2f7;', path: path, description: {title: 'VPN that rocks', text: 'Surfshark'} },
+    { iconCode: '&#xf2c2;', path: path, description: {title: 'Delete your data', text: 'Incogni'} },
 ];
 let circlesGroup = document.createElementNS(SVG_DOC, 'g');
 circlesGroup.setAttribute('class', CIRCLE_OBJECTS_GROUP_CLASS);
