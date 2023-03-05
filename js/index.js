@@ -32,12 +32,12 @@ let textList = [
         out:    [an.SLIDE_DOWN, an.SLIDE_UP],
     },
     {
-        text:   ['reach',      'your',      'destination'],
+        text:   ['reach',      'your',      'destinations'],
         in:     [an.SLIDE_RIGHT, an.SLIDE_DOWN,  an.SLIDE_LEFT],
         out:    [an.SLIDE_RIGHT, an.FADE_OUT,    an.SLIDE_LEFT],
     },
     {
-        text:   ['buy',         'innovation!'],
+        text:   ['get 5 top',         'life hacks!'],
         in:     [an.FADE_IN,       an.FADE_IN],
         out:    [an.SLIDE_RIGHT,   an.SLIDE_LEFT],
     }, 
