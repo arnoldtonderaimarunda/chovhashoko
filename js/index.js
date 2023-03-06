@@ -79,8 +79,8 @@ let circles = [
     { iconCode: '&#xf7d9;', path: path, description: {title: 'Crafted for the curious', text: 'Keyzmo'}, giddyup: 'https://deals.getkeyzmo.io/21MNWSMB/246GMWW/?uid=1428' },
     { iconCode: '&#xf0eb;', path: path, description: {title: 'Emergency backup light', text: 'Surge'}, giddyup: 'https://deals.getsurgeemergencybulb.io/21MNWSMB/29Q1LBW/?uid=1775' },
     { iconCode: '&#xf304;', path: path, description: {title: 'Writing without limits', text: 'ForeverPen'}, giddyup: 'https://deals.getforeverpen.io/21MNWSMB/25QWXGB/?uid=1725' },
-    { iconCode: '&#xf134;', path: path, description: {title: '5-in-1 fire extinguisher', text: 'StaySafe'}, giddyup: 'https://staysafe.co' },
-    { iconCode: '&#xf2e7;', path: path, description: {title: 'Flip the way you grill', text: 'FlipFork'}, giddyup: 'https://flipfork.co' }
+    { iconCode: '&#xf134;', path: path, description: {title: '5-in-1 fire extinguisher', text: 'StaySafe'}, giddyup: 'https://deals.getstaysafefireextinguisher.io/21MNWSMB/25S9S6X/?uid=1711' },
+    { iconCode: '&#xf2e7;', path: path, description: {title: 'Flip the way you grill', text: 'FlipFork'}, giddyup: 'https://deals.getflipfork.io/21MNWSMB/21L8PMB/?uid=1645' }
 ];
 let circlesGroup = document.createElementNS(SVG_DOC, 'g');
 circlesGroup.setAttribute('class', CIRCLE_OBJECTS_GROUP_CLASS);
